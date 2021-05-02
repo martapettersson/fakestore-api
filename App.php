@@ -3,6 +3,7 @@
 class App
 {
     private static $limit = 20;
+    private static $category = null;
     private static $errors = array();
 
     public static function main()
@@ -11,6 +12,12 @@ class App
             self::$limit = self::getLimit() ?? self::$limit;
         } catch (Exception $error) {
             array_push(self::$errors, array("Limit" => $error->getMessage()));
+        }
+
+        try {
+            self::$category = self::getCategory();
+        } catch (Exception $error) {
+            array_push(self::$errors, array("Category" => $error->getMessage()));
         }
 
         $products = self::getProducts();
@@ -37,6 +44,20 @@ class App
     }
 
     /**
+     * En klassmetod för att hämta category
+     */
+    private static function getCategory()
+    {
+        $category = self::getQuery("category");
+
+        if ($category && !($category == "bass" || $category == "drums" || $category == "guitars" || $category == "keyboards")) {
+            throw new Exception("Woops! Category must be bass, drums, guitars or keyboards!");
+        }
+
+        return $category;
+    }
+
+    /**
      * En klassmetod för att hämta och filtrera query
      */
     private static function getQuery($var)
@@ -57,9 +78,23 @@ class App
 
         $productsArr = array();
 
+        // Om en limit är satt ska det antalet produkter returneras, annars 20 st
         for ($i = 0; $i < self::$limit; $i++) {
             array_push($productsArr, $products[$i]);
         }
+
+        // Om speciell category är vald ska endast dessa produkter returneras
+        if (self::$category) {
+            $categoryArr = array();
+
+            foreach ($productsArr as $product) {
+                if (self::$category == $product["category"]) {
+                    array_push($categoryArr, $product);
+                }
+            }
+            return $categoryArr;
+        }
+
         return $productsArr;
     }
 
