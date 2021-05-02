@@ -3,162 +3,162 @@
 $products = [
     array(
         "id" => 1,
-        "title" => "Fjällraven Backpack",
-        "description" => "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+        "title" => "Yamaha PSR-E373",
+        "description" => "Awesome but simple keyboard.",
         "image" => "https:\/\/picsum.photos\/500?random=1",
-        "price" => 109.95,
-        "category" => "men clothing"
+        "price" => 2100,
+        "category" => "keyboards"
     ),
     array(
         "id" => 2,
-        "title" => "Mens Casual T-Shirts ",
-        "description" => "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+        "title" => "Roland GO:KEYS",
+        "description" => "Beautiful handcraft and sound.",
         "image" => "https:\/\/picsum.photos\/500?random=2",
-        "price" => 22,
-        "category" => "men clothing"
+        "price" => 2800,
+        "category" => "keyboards"
     ),
     array(
         "id" => 3,
-        "title" => "Mens Cotton Jacket",
-        "description" => "great outerwear jackets for Spring\/Autumn\/Winter, suitable for many occasions, such as working, hiking, camping, mountain\/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+        "title" => "Yamaha Genos",
+        "description" => "Truly amazing sound with synth vocoder.",
         "image" => "https:\/\/picsum.photos\/500?random=3",
-        "price" => 55.99,
-        "category" => "men clothing"
+        "price" => 39000,
+        "category" => "keyboards"
     ),
     array(
         "id" => 4,
-        "title" => "Mens Casual Slim Fit",
-        "description" => "The color could be slightly different between on the screen and in practice. \/ Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+        "title" => "Startone MK-300",
+        "description" => "For beginners this is the perfect keyboard.",
         "image" => "https:\/\/picsum.photos\/500?random=4",
-        "price" => 15.99,
-        "category" => "men clothing"
+        "price" => 2500,
+        "category" => "keyboards"
     ),
     array(
         "id" => 5,
-        "title" => "John Hardy Chain Bracelet",
-        "description" => "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean\\'s pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+        "title" => "Roland BK-3 BK",
+        "description" => "Velocity sensitive keys and a clear sound.",
         "image" => "https:\/\/picsum.photos\/500?random=5",
-        "price" => 695,
-        "category" => "jewelery"
+        "price" => 5000,
+        "category" => "keyboards"
     ),
     array(
         "id" => 6,
-        "title" => "Solid Gold Petite Micropave ",
-        "description" => "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+        "title" => "Fender Player Series Strat MN PWT",
+        "description" => "Maple neck, 5-way toggle switch.",
         "image" => "https:\/\/picsum.photos\/500?random=6",
-        "price" => 168,
-        "category" => "jewelery"
+        "price" => 6500,
+        "category" => "guitars"
     ),
     array(
         "id" => 7,
-        "title" => "White Gold Plated Princess",
-        "description" => "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine\\'s Day...",
+        "title" => "Fender Squier Affinity Tele Orange IL",
+        "description" => "3-way blade switch. Fretboard: Indian Laurel.",
         "image" => "https:\/\/picsum.photos\/500?random=7",
-        "price" => 9.99,
-        "category" => "jewelery"
+        "price" => 2500,
+        "category" => "guitars"
     ),
     array(
         "id" => 8,
-        "title" => "Pierced Owl Gold Plated",
-        "description" => "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+        "title" => "Fender Player Series Tele MN TPL",
+        "description" => "Fretboard: Maple. Matte neck finish. 22 Frets.",
         "image" => "https:\/\/picsum.photos\/500?random=8",
-        "price" => 10.99,
-        "category" => "jewelery"
+        "price" => 6600,
+        "category" => "guitars"
     ),
     array(
         "id" => 9,
-        "title" => "WD 2TB Portable Hard Drive",
-        "description" => "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+        "title" => "Gibson Les Paul Standard 60s UB",
+        "description" => "Body: Mahogany (Swietenia macrophylla). Cream-coloured body binding. Top: AA flamed maple. Neck: Mahogany (Swietenia macrophylla)",
         "image" => "https:\/\/picsum.photos\/500?random=9",
-        "price" => 64,
-        "category" => "electronics"
+        "price" => 23900,
+        "category" => "guitars"
     ),
     array(
         "id" => 10,
-        "title" => "SanDisk SSD 1TB SSD",
-        "description" => "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read\/write speeds of up to 535MB\/s\/450MB\/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+        "title" => "Gibson ES-335 Figured 60s Cherry",
+        "description" => "Build: Semi-Hollow. Maple body. Top: \"Figured maple\". Neck: Mahogany. Fretboard: Rosewood. Small block fretboard inlays",
         "image" => "https:\/\/picsum.photos\/500?random=10",
-        "price" => 109,
-        "category" => "electronics"
+        "price" => 37500,
+        "category" => "guitars"
     ),
     array(
         "id" => 11,
-        "title" => "Silicon Power 256GB SSD",
-        "description" => "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+        "title" => "Ludwig Centennial Moto Natural Bundle",
+        "description" => "Bass Drum size: 24. Number of TomToms: 1. Number of Floor Toms: 2. Shell Material: Maple.",
         "image" => "https:\/\/picsum.photos\/500?random=11",
-        "price" => 109,
-        "category" => "electronics"
+        "price" => 23000,
+        "category" => "drums"
     ),
     array(
         "id" => 12,
-        "title" => "WD 4TB Gaming Hard Drive",
-        "description" => "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer\\'s limited warranty",
+        "title" => "Tama Superstar Hyper Maple Rock FBK",
+        "description" => "Superstar Hyper-Drive Maple Series, ML52HLZBN-FBK. Drum shells are finished with a coating of lacquer. Colour: Flat Black (FBK)",
         "image" => "https:\/\/picsum.photos\/500?random=12",
-        "price" => 114,
-        "category" => "electronics"
+        "price" => 17900,
+        "category" => "drums"
     ),
     array(
         "id" => 13,
-        "title" => "Acer SB220Q Full HD",
-        "description" => "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate=> 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16=> 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+        "title" => "Pearl Decade Maple 6pc Black Burst",
+        "description" => "Limited edition, DMP926S / C-262. Matte lacquered shell. Colour: Satin Black Burst (-262)",
         "image" => "https:\/\/picsum.photos\/500?random=13",
-        "price" => 599,
-        "category" => "electronics"
+        "price" => 13500,
+        "category" => "drums"
     ),
     array(
         "id" => 14,
-        "title" => "Samsung 49-Inch QLED",
-        "description" => "49 INCH SUPER ULTRAWIDE 32=>9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+        "title" => "Yamaha Stage Custom Stand. CR- Bundle",
+        "description" => "Drum Shell Set. Stage Custom Series. High gloss lacquered 6-ply birch wood shells. Colour: Cranberry Red",
         "image" => "https:\/\/picsum.photos\/500?random=14",
-        "price" => 999.99,
-        "category" => "electronics"
+        "price" => 11400,
+        "category" => "drums"
     ),
     array(
         "id" => 15,
-        "title" => "3-in-1 Snowboard Jacket",
-        "description" => "Note: The Jackets is US standard size, Please choose size as your usual wear Material=> 100% Polyester; Detachable Liner Fabric=> Warm Fleece. Detachable Functional Liner=> Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets=> 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design=> Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+        "title" => "Sonor AQ1 Stage Set Piano Black",
+        "description" => "AQ1 series. Stage version. 100% Birch wood shells. Chrome plated shell hardware",
         "image" => "https:\/\/picsum.photos\/500?random=15",
-        "price" => 56.99,
-        "category" => "women clothing"
+        "price" => 10800,
+        "category" => "drums"
     ),
     array(
         "id" => 16,
-        "title" => "Lock and Love Biker Jacket",
-        "description" => "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort \/ 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist \/ Detail stitching at sides, HAND WASH ONLY \/ DO NOT BLEACH \/ LINE DRY \/ DO NOT IRON",
+        "title" => "Fender SQ Contemporary J-Bass OBM IL",
+        "description" => "Body: Poplar. Neck: Maple. Fretboard: Indian Laurel. Neck profile: \"C\". 20 Frets",
         "image" => "https:\/\/picsum.photos\/500?random=16",
-        "price" => 29.95,
-        "category" => "women clothing"
+        "price" => 3499,
+        "category" => "bass"
     ),
     array(
         "id" => 17,
-        "title" => "Rain Jacket Windbreaker",
-        "description" => "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn\\'t overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+        "title" => "Fender SQ CV 70s Jazz Bass MN 3TS",
+        "description" => "Classic Vibe Series. Body: Poplar. Neck: Maple. Neck attachment: Bolt-on. Fretboard: Maple.",
         "image" => "https:\/\/picsum.photos\/500?random=17",
-        "price" => 39.99,
-        "category" => "women clothing"
+        "price" => 3990,
+        "category" => "bass"
     ),
     array(
         "id" => 18,
-        "title" => "MBJ Solid Short Sleeve",
-        "description" => "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline \/ Double stitching on bottom hem",
+        "title" => "Harley Benton Enhanced MJ-5EB Lake Blue",
+        "description" => "Build: JB style. Ergonomically shaped alder body. Matching headstock. 6-Bolt Canadian hard rock maple neck. Macassar ebony fretboard",
         "image" => "https:\/\/picsum.photos\/500?random=18",
-        "price" => 9.85,
-        "category" => "women clothing"
+        "price" => 3500,
+        "category" => "bass"
     ),
     array(
         "id" => 19,
-        "title" => "Opna Short Sleeve Moisture",
-        "description" => "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+        "title" => "Ibanez EHB1000S-PMM",
+        "description" => "Chambered body: Basswood. Bolt-on 5-piece neck: Roasted maple / walnut. Fretboard: Roasted birdseye maple. Abalone Offset Dot fretboard inlays. Scale length: 762 mm. Colour: Pink Gold Metallic Matte",
         "image" => "https:\/\/picsum.photos\/500?random=19",
-        "price" => 7.95,
-        "category" => "women clothing"
+        "price" => 10290,
+        "category" => "bass"
     ),
     array(
         "id" => 20,
-        "title" => "DANVOUY Womens T-Shirt",
-        "description" => "95%Cotton,5%Spandex, Features=> Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion=> Casual\/Office\/Beach\/School\/Home\/Street. Season=> Spring,Summer,Autumn,Winter.",
+        "title" => "Ibanez TMB30-BK Talman Short Scale",
+        "description" => "Short-scale model. Body: Poplar. Neck: Maple. Fretboard: Jatoba. 20 Frets",
         "image" => "https:\/\/picsum.photos\/500?random=20",
-        "price" => 12.99,
-        "category" => "women clothing"
+        "price" => 1200,
+        "category" => "bass"
     )
 ];
