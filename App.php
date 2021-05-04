@@ -20,11 +20,12 @@ class App
             array_push(self::$errors, array("Category" => $error->getMessage()));
         }
 
-        $products = self::getProducts();
-
         // Om det uppstår fel ska felmeddelande renderas, annars renderas produkter
-        if (self::$errors) self::renderProducts(self::$errors);
-        else self::renderProducts($products);
+        if (self::$errors) self::renderData(self::$errors);
+        else {
+            $products = self::getProducts();
+            self::renderData($products);
+        }
     }
 
     /**
@@ -114,14 +115,13 @@ class App
             }
             return $productsArr;
         }
-        return $productsArr;
     }
 
     /**
-     * En klassmetod för att rendera produkter
+     * En klassmetod för att rendera data
      */
-    private static function renderProducts($products)
+    private static function renderData($data)
     {
-        echo json_encode($products, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
+        echo json_encode($data, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
     }
 }
