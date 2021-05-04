@@ -74,27 +74,46 @@ class App
     private static function getProducts()
     {
         require_once "products.php";
-        shuffle($products);
 
         $productsArr = array();
 
-        // Om en limit är satt ska det antalet produkter returneras, annars 20 st
-        for ($i = 0; $i < self::$limit; $i++) {
-            array_push($productsArr, $products[$i]);
-        }
-
-        // Om speciell category är vald ska endast dessa produkter returneras
-        if (self::$category) {
+        // Om man satt limit och valt en kategori ska endast dessa produkter returneras
+        if (self::$category && self::$limit) {
             $categoryArr = array();
-
-            foreach ($productsArr as $product) {
-                if (self::$category == $product["category"]) {
+            foreach ($products as $product) {
+                if ($product["category"] == self::$category)
                     array_push($categoryArr, $product);
-                }
             }
-            return $categoryArr;
+            shuffle($categoryArr);
+
+            // $limit ska vara vald limit via GET-request om den inte överskrider max antal produkter i vald kategori
+            // annars ska $limit vara antal produkter i vald kategori
+            $numberOfProducts = count($categoryArr);
+            $limit = self::$limit <= $numberOfProducts ? self::$limit : $numberOfProducts;
+
+            for ($i = 0; $i < $limit; $i++) {
+                array_push($productsArr, $categoryArr[$i]);
+            }
+            return $productsArr;
         }
 
+        // Om ingen kategori är vald men en limit är satt ska det antalet produkter returneras, annars 20 st
+        if (!self::$category && self::$limit) {
+            shuffle($products);
+            for ($i = 0; $i < self::$limit; $i++) {
+                array_push($productsArr, $products[$i]);
+            }
+            return $productsArr;
+        }
+
+        // Om specifik category är vald ska endast dessa produkter returneras
+        if (self::$category) {
+            for ($i = 0; $i < self::$limit; $i++) {
+                if ($products[$i]["category"] == self::$category)
+                    array_push($productsArr, $products[$i]);
+            }
+            return $productsArr;
+        }
         return $productsArr;
     }
 
